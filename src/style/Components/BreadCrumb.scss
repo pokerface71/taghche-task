@@ -1,0 +1,16 @@
+.breadcrumb {
+	margin: 0 auto;
+	padding: 15px 0;
+	width: 100%;
+	.breadcrumb-ul {
+		width: 80%;
+		margin: 0 auto;
+		display: flex;
+		li {
+			font-size: 12px;
+			.breadcrumb-slash {
+				padding: 0 5px;
+			}
+		}
+	}
+}
